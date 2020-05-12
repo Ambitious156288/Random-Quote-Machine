@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "721113564d4ce3ab70d2",
-    "url": "/Random-Quote-Machine/static/js/main.42c3f652.chunk.js"
+    "revision": "86c8bbfbbc5cb0f0e26d",
+    "url": "/Random-Quote-Machine/static/js/main.149407b9.chunk.js"
   },
   {
     "revision": "fc1abb5e9f8eb11e4c02",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/Random-Quote-Machine/static/js/2.9ee4b7ed.chunk.js"
   },
   {
-    "revision": "ab398af369e6ef345676e8b4d019193b",
+    "revision": "37cbfbafa763cc17fe1c81d4e4cdf505",
     "url": "/Random-Quote-Machine/index.html"
   }
 ];
