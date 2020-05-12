@@ -7,13 +7,13 @@ export const theme1 = {
 };
 
 export const theme2 = {
-  default: '#27ae60 ',
+  default: '#0B4530 ',
 };
 
 export const theme3 = {
-  default: '#f39c12',
+  default: '#ce8147',
 };
 
 export const theme4 = {
-  default: '#e74c3c',
+  default: '#080A17',
 };
