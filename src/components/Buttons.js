@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Button = styled.a`
   display: flex;
@@ -12,7 +13,6 @@ const Button = styled.a`
   margin: 20px 20px;
   padding: 7px;
   color: white;
-  /* font-weight: bold; */
   font-family: 'Caveat', cursive;
   border-radius: 10px;
   background-color: ${({ theme }) => theme.default};
@@ -21,5 +21,9 @@ const Button = styled.a`
 `;
 
 const Buttons = ({ onClick }) => <Button onClick={onClick}>New quote!</Button>;
+
+Buttons.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};
 
 export default Buttons;

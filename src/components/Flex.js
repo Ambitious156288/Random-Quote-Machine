@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Center = styled.div`
   position: absolute;
@@ -9,5 +10,9 @@ const Center = styled.div`
 `;
 
 const Flex = ({ children }) => <Center>{children}</Center>;
+
+Flex.propTypes = {
+  children: PropTypes.element.isRequired,
+};
 
 export default Flex;
