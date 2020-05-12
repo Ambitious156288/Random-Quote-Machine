@@ -5,6 +5,7 @@ import Flex from './Flex';
 const Styledh1 = styled.h1`
   color: ${({ theme }) => theme.default};
   font-size: 40px;
+  font-family: 'Caveat', cursive;
   transition: 0.7s;
 `;
 

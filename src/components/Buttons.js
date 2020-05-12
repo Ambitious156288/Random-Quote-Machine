@@ -6,13 +6,14 @@ const Button = styled.a`
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  width: 80px;
+  width: 90px;
   height: 40px;
   border: none;
   margin: 20px 20px;
   padding: 7px;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-family: 'Caveat', cursive;
   border-radius: 10px;
   background-color: ${({ theme }) => theme.default};
   transition: 0.7s;

@@ -11,7 +11,8 @@ const WhiteContainer = styled.div`
   height: 40vh;
   width: 70vw;
   padding: 5px;
-  border: 3px solid black;
+  outline: 4px solid white;
+  border: 4px solid ${({ theme }) => theme.default};
   background-color: white;
 `;
 
